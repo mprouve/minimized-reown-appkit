@@ -1,0 +1,38 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.eslintcache
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+/builds
+/storybook-static
+
+# misc
+.DS_Store
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# editors
+/.idea/
+/.vscode/
+
+# env
+.env
+.env.*
+/public/.htaccess
+
+# DELETE WHEN READY -> Deprecated
+/.gitattributes
+
+# Public
+# We use a manifest.template.json file to generate the required manifest per environment during our build script. (Hide actual manifest file)
+/public/manifest.json

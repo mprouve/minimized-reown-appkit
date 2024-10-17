@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll {
+  background-color: #fec300 !important;
+  border-color: #fec300 !important;
+}
+
+#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection {
+  background-color: transparent !important;
+  border-color: #fec300 !important;
+}
+
+#CybotCookiebotDialogBodyButtonDecline {
+  background-color: transparent !important;
+  border-color: #fec300 !important;
+}
+
+#CybotCookiebotDialogBodyLevelButtonCustomize {
+  background-color: transparent !important;
+  border-color: #fec300 !important;
+}
+
+#CybotCookiebotDialog.CybotEdge #CybotCookiebotDialogBodyEdgeMoreDetails a {
+  color: #fec300 !important;
+}
+
+#CybotCookiebotDialog input:checked + .CybotCookiebotDialogBodyLevelButtonSlider {
+  background-color: #fec300 !important;
+}
+
+#CybotCookiebotDialogNav .CybotCookiebotDialogNavItemLink:hover {
+  color: #fec300 !important;
+}
+
+#CybotCookiebotDialogNav .CybotCookiebotDialogNavItemLink.CybotCookiebotDialogActive {
+  border-color: transparent !important;
+  border-bottom: 1px solid #fec300 !important;
+  color: #fec300 !important;
+}
+
+#CybotCookiebotDialog #CybotCookiebotDialogDetailFooter a {
+  color: #fec300 !important;
+}
