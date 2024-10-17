@@ -671,10 +671,10 @@
   resolved "https://nexus.n3twork.com/repository/npm-group/@metamask/safe-event-emitter/-/safe-event-emitter-3.1.1.tgz#e89b840a7af8097a8ed4953d8dc8470d1302d3ef"
   integrity sha512-ihb3B0T/wJm1eUuArYP4lCTSEoZsClHhuWyfo/kMX3m/odpqNcPfsz5O2A3NT7dXCAgWPGDQGPqygCpgeniKMw==
 
-"@metamask/sdk-communication-layer@0.28.2":
-  version "0.28.2"
-  resolved "https://nexus.n3twork.com/repository/npm-group/@metamask/sdk-communication-layer/-/sdk-communication-layer-0.28.2.tgz#25d84a6af4dd79324e0d4c9d1f307711fbd4aa91"
-  integrity sha512-kGx6qgP482DecPILnIS38bgxIjNransR3/Jh5Lfg9BXJLaXpq/MEGrjHGnJHAqCyfRymnd5cgexHtXJvQtRWQA==
+"@metamask/sdk-communication-layer@0.29.2":
+  version "0.29.2"
+  resolved "https://nexus.n3twork.com/repository/npm-group/@metamask/sdk-communication-layer/-/sdk-communication-layer-0.29.2.tgz#6c63435c55fcc122428c5fe8c19d38c05c98ecde"
+  integrity sha512-Xfa1DXOg0bfvMqXa3o/Y43bm2kHYyD4YdR0XiuhL70NJzPcUPM53I1O7aSg83ogRHsHI4LM7dEEMEo6w6uQgdg==
   dependencies:
     bufferutil "^4.0.8"
     date-fns "^2.29.3"
@@ -682,22 +682,22 @@
     utf-8-validate "^5.0.2"
     uuid "^8.3.2"
 
-"@metamask/sdk-install-modal-web@0.28.1":
-  version "0.28.1"
-  resolved "https://nexus.n3twork.com/repository/npm-group/@metamask/sdk-install-modal-web/-/sdk-install-modal-web-0.28.1.tgz#3e7085c34eaec7f9974e4a928e7f5bea33a278c9"
-  integrity sha512-mHkIjWTpYQMPDMtLEEtTVXhae4pEjy7jDBfV7497L0U3VCPQrBl/giZBwA6AgKEX1emYcM2d1WRHWR9N4YhyJA==
+"@metamask/sdk-install-modal-web@0.29.2":
+  version "0.29.2"
+  resolved "https://nexus.n3twork.com/repository/npm-group/@metamask/sdk-install-modal-web/-/sdk-install-modal-web-0.29.2.tgz#a50dce1f910318440994ba6570e711c099d80567"
+  integrity sha512-AOiRpv0pIxIyWYTuBWRymdTVwdZrsVNGNFv0I7RlBU0s1hQ6lapEq2eeIv30d9E88mS/DI6F3R0ArSg0So7W2g==
   dependencies:
     qr-code-styling "^1.6.0-rc.1"
 
-"@metamask/sdk@0.28.4":
-  version "0.28.4"
-  resolved "https://nexus.n3twork.com/repository/npm-group/@metamask/sdk/-/sdk-0.28.4.tgz#bb5f3849629403ec97c23e1a968c6b893ecf001c"
-  integrity sha512-RjWBKPNesjeua2SXIDF9IvYALOSsOQyqHv5DPPK0Voskytk7y+2n/33ocbC1BH5hTLI4hDPH+BuCpXJRWs3/Yg==
+"@metamask/sdk@0.29.3":
+  version "0.29.3"
+  resolved "https://nexus.n3twork.com/repository/npm-group/@metamask/sdk/-/sdk-0.29.3.tgz#7d25be3deb1628349f2f7e3885260c556d89cc1c"
+  integrity sha512-raOqMlsEjzsz3bOAK1x7/1QyGfnCyGvFZOT4OYoyepKu3QG3ex3o8iHdVYlcMkqZVcOsXWLsrUorn0SYploXyw==
   dependencies:
     "@metamask/onboarding" "^1.0.1"
     "@metamask/providers" "16.1.0"
-    "@metamask/sdk-communication-layer" "0.28.2"
-    "@metamask/sdk-install-modal-web" "0.28.1"
+    "@metamask/sdk-communication-layer" "0.29.2"
+    "@metamask/sdk-install-modal-web" "0.29.2"
     "@types/dom-screen-wake-lock" "^1.0.0"
     "@types/uuid" "^10.0.0"
     bowser "^2.9.0"
@@ -1094,122 +1094,123 @@
   resolved "https://nexus.n3twork.com/repository/npm-group/@remix-run/router/-/router-1.20.0.tgz#03554155b45d8b529adf635b2f6ad1165d70d8b4"
   integrity sha512-mUnk8rPJBI9loFDZ+YzPGdeniYK+FTmRD1TMCz7ev2SNIozyKKpnGgsxO34u6Z4z/t0ITuu7voi/AshfsGsgFg==
 
-"@reown/appkit-adapter-wagmi@1.1.0":
-  version "1.1.0"
-  resolved "https://nexus.n3twork.com/repository/npm-group/@reown/appkit-adapter-wagmi/-/appkit-adapter-wagmi-1.1.0.tgz#79bdf80f6b366e4870656900bf25b5b4bb0baa20"
-  integrity sha512-o/8DsCsFDsg1oXSg7AL/eEOYbvJzzhqPxfVSdCWaGsWxGa+r97YevnrWpLQa4S9KtIC5RGZLcUvS2GS+xuoQpQ==
+"@reown/appkit-adapter-wagmi@^1.1.5":
+  version "1.1.5"
+  resolved "https://nexus.n3twork.com/repository/npm-group/@reown/appkit-adapter-wagmi/-/appkit-adapter-wagmi-1.1.5.tgz#37dfdc008a3eea3221fcb37d54d8f6c26b3b288e"
+  integrity sha512-MZTDj1veM53WW4q5FrLHyaaA7YZ8uIPRzz8sF184tuwPoP4AsBAIuglug3QctMbmHj7uRdZbejBO+/7jCikXIQ==
   dependencies:
-    "@reown/appkit" "1.1.0"
-    "@reown/appkit-common" "1.1.0"
-    "@reown/appkit-core" "1.1.0"
-    "@reown/appkit-polyfills" "1.1.0"
-    "@reown/appkit-scaffold-ui" "1.1.0"
-    "@reown/appkit-siwe" "1.1.0"
-    "@reown/appkit-ui" "1.1.0"
-    "@reown/appkit-utils" "1.1.0"
-    "@reown/appkit-wallet" "1.1.0"
+    "@reown/appkit" "1.1.5"
+    "@reown/appkit-common" "1.1.5"
+    "@reown/appkit-core" "1.1.5"
+    "@reown/appkit-polyfills" "1.1.5"
+    "@reown/appkit-scaffold-ui" "1.1.5"
+    "@reown/appkit-siwe" "1.1.5"
+    "@reown/appkit-ui" "1.1.5"
+    "@reown/appkit-utils" "1.1.5"
+    "@reown/appkit-wallet" "1.1.5"
     "@walletconnect/universal-provider" "2.17.0"
     "@walletconnect/utils" "2.17.0"
     valtio "1.11.2"
 
-"@reown/appkit-common@1.1.0":
-  version "1.1.0"
-  resolved "https://nexus.n3twork.com/repository/npm-group/@reown/appkit-common/-/appkit-common-1.1.0.tgz#61443dfdaf47a883a03d5637d463abb5e754d882"
-  integrity sha512-kQXy6DqjUAaTWFtls2wDDxBdzK3LyQE1GkXnZ92m3EE2WMgcUReyRgTO5yvBexPzrNQCC9QqooMp07cHxDSNpQ==
+"@reown/appkit-common@1.1.5":
+  version "1.1.5"
+  resolved "https://nexus.n3twork.com/repository/npm-group/@reown/appkit-common/-/appkit-common-1.1.5.tgz#0b4a1482e97a2b511b0de34db0773e60ce2190d4"
+  integrity sha512-lugYU7CZLk7BQRAiUHz1SMYjM66AxmqNYS7mojFrlqRn/0AYxXhI0qoLeAXBTD30D+y+f1hy++k0PS4YbezJ2Q==
   dependencies:
     bignumber.js "9.1.2"
     dayjs "1.11.10"
     viem "2.x"
 
-"@reown/appkit-core@1.1.0":
-  version "1.1.0"
-  resolved "https://nexus.n3twork.com/repository/npm-group/@reown/appkit-core/-/appkit-core-1.1.0.tgz#b6b6bbca7165d8d6e6aa1e13c84c3460fea47141"
-  integrity sha512-cxHCW8O3fSZhdwGnnO9gfsJD8JWaDhrVfJf7od4uR8c4hirbdXk6hNp9A6BhGY2qqb3B8KlHcBWNahKqZEQARA==
+"@reown/appkit-core@1.1.5":
+  version "1.1.5"
+  resolved "https://nexus.n3twork.com/repository/npm-group/@reown/appkit-core/-/appkit-core-1.1.5.tgz#a351be8bc9b3a485c7cdd1469747e6992c09e685"
+  integrity sha512-mzWrEJUE/2gqir/TiAInzgTMG0cOQjTxTTzsMV2Up82x6Fsmi9H2lSRLy5WUeTQ8EtuOtc35rMdFGm7odlQ3Ew==
   dependencies:
-    "@reown/appkit-common" "1.1.0"
-    "@reown/appkit-wallet" "1.1.0"
+    "@reown/appkit-common" "1.1.5"
+    "@reown/appkit-wallet" "1.1.5"
     "@walletconnect/universal-provider" "2.17.0"
     valtio "1.11.2"
     viem "2.x"
 
-"@reown/appkit-polyfills@1.1.0":
-  version "1.1.0"
-  resolved "https://nexus.n3twork.com/repository/npm-group/@reown/appkit-polyfills/-/appkit-polyfills-1.1.0.tgz#b6c3e22a900d05e0fffc1320bfef7193ee81aa3b"
-  integrity sha512-9YoEj8V0lGmM/3TA9g1McCBY/eGVow5aoEnRE77GV/ytipRAPVwxg+UavFpFkgxwj2irRjujy/167aXQ1l+Ahw==
+"@reown/appkit-polyfills@1.1.5":
+  version "1.1.5"
+  resolved "https://nexus.n3twork.com/repository/npm-group/@reown/appkit-polyfills/-/appkit-polyfills-1.1.5.tgz#81c3d0b2860e94262f6312b0e3fa83331f97c688"
+  integrity sha512-R0is7KjFFKtQuAL4eDXoBi48Y9Dt5vOhbnBTo5KyOTGaiBiGu8SjwEwDbrV6Pfy/Z9gWPJdpcGDZi98xOQM2QA==
   dependencies:
     buffer "6.0.3"
 
-"@reown/appkit-scaffold-ui@1.1.0":
-  version "1.1.0"
-  resolved "https://nexus.n3twork.com/repository/npm-group/@reown/appkit-scaffold-ui/-/appkit-scaffold-ui-1.1.0.tgz#f24c7bef6bfe8d2ea590b746b7e72377cb7920d2"
-  integrity sha512-Ql7MdaQOSn3/ODlglM3aXxnYoN+8OwANy0sv7PLgBj7ZdHr7sIa7ynzICk0CB1f4HiNLPeSPdp/IE1mCNxsXDQ==
+"@reown/appkit-scaffold-ui@1.1.5":
+  version "1.1.5"
+  resolved "https://nexus.n3twork.com/repository/npm-group/@reown/appkit-scaffold-ui/-/appkit-scaffold-ui-1.1.5.tgz#962f39973ea98d95293e947c1bed4aff61e2cf3a"
+  integrity sha512-dtThVtViGbbIgHTy50xwvWGAjHedM4lIyp9ATQlFtrSKWGopxvLV9b4rjzhT4c4GFGvjhiAMRR/2fNU1Bz+lHg==
   dependencies:
-    "@reown/appkit-common" "1.1.0"
-    "@reown/appkit-core" "1.1.0"
-    "@reown/appkit-siwe" "1.1.0"
-    "@reown/appkit-ui" "1.1.0"
-    "@reown/appkit-utils" "1.1.0"
-    "@reown/appkit-wallet" "1.1.0"
+    "@reown/appkit-common" "1.1.5"
+    "@reown/appkit-core" "1.1.5"
+    "@reown/appkit-siwe" "1.1.5"
+    "@reown/appkit-ui" "1.1.5"
+    "@reown/appkit-utils" "1.1.5"
+    "@reown/appkit-wallet" "1.1.5"
     lit "3.1.0"
 
-"@reown/appkit-siwe@1.1.0":
-  version "1.1.0"
-  resolved "https://nexus.n3twork.com/repository/npm-group/@reown/appkit-siwe/-/appkit-siwe-1.1.0.tgz#bb0444dd8c1e67e0bb3c372245b0a4f7859df339"
-  integrity sha512-MVHaskFRrg1k7o7nbJ7Ofth6COaoOIZufTsVEYmwhxSXkIYbc1bK70e1ikhZ9zEqPHrjzoNsCRNsBdd0U+YhWA==
+"@reown/appkit-siwe@1.1.5", "@reown/appkit-siwe@^1.1.5":
+  version "1.1.5"
+  resolved "https://nexus.n3twork.com/repository/npm-group/@reown/appkit-siwe/-/appkit-siwe-1.1.5.tgz#e31d145e86c856a2c39ad2b00cd389c9ccfc8a44"
+  integrity sha512-WPHtJGh4U4eHMxE07oW7QGYJ24ro3qeEZO3JjAyUwQxfyYP7OlbJZpADWho8iGDRn9OJ4iS0GfBsm1huUdCwjQ==
   dependencies:
-    "@reown/appkit-common" "1.1.0"
-    "@reown/appkit-core" "1.1.0"
-    "@reown/appkit-ui" "1.1.0"
-    "@reown/appkit-utils" "1.1.0"
-    "@reown/appkit-wallet" "1.1.0"
+    "@reown/appkit-common" "1.1.5"
+    "@reown/appkit-core" "1.1.5"
+    "@reown/appkit-ui" "1.1.5"
+    "@reown/appkit-utils" "1.1.5"
+    "@reown/appkit-wallet" "1.1.5"
     "@walletconnect/utils" "2.17.0"
     lit "3.1.0"
     valtio "1.11.2"
 
-"@reown/appkit-ui@1.1.0":
-  version "1.1.0"
-  resolved "https://nexus.n3twork.com/repository/npm-group/@reown/appkit-ui/-/appkit-ui-1.1.0.tgz#e1e012d32d44c2a6c731d33ec277ee920b37c3f1"
-  integrity sha512-q7jggBWndc+INm1UyuAnEtnxuxUzU3OgFrzvkeu5Nv/fkM223XSSjnbe3dcDaNTdEfzVHixourmjeqcoKJ2q1g==
+"@reown/appkit-ui@1.1.5":
+  version "1.1.5"
+  resolved "https://nexus.n3twork.com/repository/npm-group/@reown/appkit-ui/-/appkit-ui-1.1.5.tgz#5b853da4997bcf8df6cfaecb6c8dba23b0fa09e3"
+  integrity sha512-5qiLW3wA/uL79NVBPFOVWSkfCDFtgMLyAOzdH+9esh0s1xoWgXWHu0ZTJsMONLUautBTIY/iqU8NbQeQeyXayA==
   dependencies:
     lit "3.1.0"
     qrcode "1.5.3"
 
-"@reown/appkit-utils@1.1.0":
-  version "1.1.0"
-  resolved "https://nexus.n3twork.com/repository/npm-group/@reown/appkit-utils/-/appkit-utils-1.1.0.tgz#455a382238ba0da18dd36117fa51cef91a35693a"
-  integrity sha512-n/W0T21IU+Sif/j9MO7as7ZtsHHrFR2eK1PvW/jCvkKUzkQ1ZfPL55Pg/aazpM/Kt/9IhSLwQG+nUnmePh13Vw==
+"@reown/appkit-utils@1.1.5":
+  version "1.1.5"
+  resolved "https://nexus.n3twork.com/repository/npm-group/@reown/appkit-utils/-/appkit-utils-1.1.5.tgz#f2885cb4e7a26b6512e296038f8cd0dfc6528a61"
+  integrity sha512-IIVBIgcZliic3FxhwaxQvPckhJHPT4cWfEgu/iyyHs4TwZn2Uwvr6oEwXuAtk/Hzw34zQiz+ITjRc1uyrbNbJw==
   dependencies:
-    "@reown/appkit-common" "1.1.0"
-    "@reown/appkit-core" "1.1.0"
-    "@reown/appkit-polyfills" "1.1.0"
-    "@reown/appkit-wallet" "1.1.0"
+    "@reown/appkit-common" "1.1.5"
+    "@reown/appkit-core" "1.1.5"
+    "@reown/appkit-polyfills" "1.1.5"
+    "@reown/appkit-wallet" "1.1.5"
     "@walletconnect/logger" "2.1.2"
     "@walletconnect/universal-provider" "2.17.0"
     valtio "1.11.2"
+    viem "2.x"
 
-"@reown/appkit-wallet@1.1.0":
-  version "1.1.0"
-  resolved "https://nexus.n3twork.com/repository/npm-group/@reown/appkit-wallet/-/appkit-wallet-1.1.0.tgz#884d4fe7dc4fa1804af75266dc1e88d8ad34325f"
-  integrity sha512-Bo3Sou/P/rkx0AZMWiSTfxo56+8FjcbUqeZj5vAXqg2G8QL2tz1IKceEH2EhQjM3D8EoxGOiq6ByRJRLbUqueQ==
+"@reown/appkit-wallet@1.1.5":
+  version "1.1.5"
+  resolved "https://nexus.n3twork.com/repository/npm-group/@reown/appkit-wallet/-/appkit-wallet-1.1.5.tgz#6627742850aafd7247b6f4367cc93a73a10f781a"
+  integrity sha512-5+HD+kcnQgAXna18KPy7QsT0xal5cD9sGkcfcwiBrT+VpPA4+wWJRyjIxY+umv2gjvYJ3W1cMIwO8n0JQog2LA==
   dependencies:
-    "@reown/appkit-common" "1.1.0"
-    "@reown/appkit-polyfills" "1.1.0"
+    "@reown/appkit-common" "1.1.5"
+    "@reown/appkit-polyfills" "1.1.5"
     "@walletconnect/logger" "2.1.2"
     zod "3.22.4"
 
-"@reown/appkit@1.1.0":
-  version "1.1.0"
-  resolved "https://nexus.n3twork.com/repository/npm-group/@reown/appkit/-/appkit-1.1.0.tgz#6df5f24b8f89625ccafbe55d6842d9af5ac5fc4d"
-  integrity sha512-Ce3ktlpBVY8qboixmkfoHLRRBr9ik+xawNbjIwdZoVC/M/Puf+or9aH5LsOcDYu/8L4enb3T4/Ra8RCyOR6TYg==
+"@reown/appkit@1.1.5", "@reown/appkit@^1.1.5":
+  version "1.1.5"
+  resolved "https://nexus.n3twork.com/repository/npm-group/@reown/appkit/-/appkit-1.1.5.tgz#aa48799b81d280624aefa92d3b9c49fff54def63"
+  integrity sha512-U8Lk78f6XMdNAZoysKIIL+z9b3IXWNojrOXctkimb0CjDmoz86Fub2BkTUUkaQV8ILnYndWNxaDgWaEutCPVGA==
   dependencies:
-    "@reown/appkit-common" "1.1.0"
-    "@reown/appkit-core" "1.1.0"
-    "@reown/appkit-polyfills" "1.1.0"
-    "@reown/appkit-scaffold-ui" "1.1.0"
-    "@reown/appkit-siwe" "1.1.0"
-    "@reown/appkit-ui" "1.1.0"
-    "@reown/appkit-utils" "1.1.0"
-    "@reown/appkit-wallet" "1.1.0"
+    "@reown/appkit-common" "1.1.5"
+    "@reown/appkit-core" "1.1.5"
+    "@reown/appkit-polyfills" "1.1.5"
+    "@reown/appkit-scaffold-ui" "1.1.5"
+    "@reown/appkit-siwe" "1.1.5"
+    "@reown/appkit-ui" "1.1.5"
+    "@reown/appkit-utils" "1.1.5"
+    "@reown/appkit-wallet" "1.1.5"
     "@walletconnect/types" "2.17.0"
     "@walletconnect/universal-provider" "2.17.0"
     "@walletconnect/utils" "2.17.0"
@@ -1592,17 +1593,17 @@
     "@svgr/hast-util-to-babel-ast" "8.0.0"
     svg-parser "^2.0.4"
 
-"@tanstack/query-core@5.59.6":
-  version "5.59.6"
-  resolved "https://nexus.n3twork.com/repository/npm-group/@tanstack/query-core/-/query-core-5.59.6.tgz#96bf2cc00f2bbd111def52134f10d50e6c1235dd"
-  integrity sha512-g58YTHe4ClRrjJ50GY9fas/0zARJVozY0Hs+hcSBOmwZaeKY+to0/LX8wKnnH/EJiLYcC1sHmE11CAS3ncfZBg==
+"@tanstack/query-core@5.59.13":
+  version "5.59.13"
+  resolved "https://nexus.n3twork.com/repository/npm-group/@tanstack/query-core/-/query-core-5.59.13.tgz#8c962980af174bbd446b7e9b9999f7432897df80"
+  integrity sha512-Oou0bBu/P8+oYjXsJQ11j+gcpLAMpqW42UlokQYEz4dE7+hOtVO9rVuolJKgEccqzvyFzqX4/zZWY+R/v1wVsQ==
 
-"@tanstack/react-query@5.59.8":
-  version "5.59.8"
-  resolved "https://nexus.n3twork.com/repository/npm-group/@tanstack/react-query/-/react-query-5.59.8.tgz#ae00d67235be9fb6ce79779faa84228e69676041"
-  integrity sha512-jkvObpbjBL6P/PHFIjvNGG19XyhI8sjP6/Mw7CbmgT6SAps/5fZY5pxDicRwAt1YGCiEQvwrJQ6IdbZ8j5CVfw==
+"@tanstack/react-query@^5.59.15":
+  version "5.59.15"
+  resolved "https://nexus.n3twork.com/repository/npm-group/@tanstack/react-query/-/react-query-5.59.15.tgz#fa1c5b4d96e6a148ec761f214304bbf5ac1906be"
+  integrity sha512-QbVlAkTI78wB4Mqgf2RDmgC0AOiJqer2c5k9STOOSXGv1S6ZkY37r/6UpE8DbQ2Du0ohsdoXgFNEyv+4eDoPEw==
   dependencies:
-    "@tanstack/query-core" "5.59.6"
+    "@tanstack/query-core" "5.59.13"
 
 "@trysound/sax@0.2.0":
   version "0.2.0"
@@ -1972,13 +1973,13 @@
     loupe "^3.1.1"
     tinyrainbow "^1.2.0"
 
-"@wagmi/connectors@5.1.15":
-  version "5.1.15"
-  resolved "https://nexus.n3twork.com/repository/npm-group/@wagmi/connectors/-/connectors-5.1.15.tgz#39ff0fe0f1729ce9d0dce24806d40a82fe5a48fb"
-  integrity sha512-Bz5EBpn8hAYFuxCWoXviwABk2VlLRuQTpJ7Yd/hu4HuuXnTdCN27cfvT+Fy2sWbwpLnr1e29LJGAUCIyYkHz7g==
+"@wagmi/connectors@5.2.1":
+  version "5.2.1"
+  resolved "https://nexus.n3twork.com/repository/npm-group/@wagmi/connectors/-/connectors-5.2.1.tgz#537f8d57da84b7f7d399d99a952508d3ab4faa8a"
+  integrity sha512-+QxjRJnSlhBhq6wiMU4zxdfKgszk2Ul7rHxOHdKyq4bTNXikc0iBu+XxLJKBpEsL065rUtBitaBS70xkSWw5ow==
   dependencies:
     "@coinbase/wallet-sdk" "4.0.4"
-    "@metamask/sdk" "0.28.4"
+    "@metamask/sdk" "0.29.3"
     "@safe-global/safe-apps-provider" "0.18.3"
     "@safe-global/safe-apps-sdk" "9.1.0"
     "@walletconnect/ethereum-provider" "2.17.0"
@@ -8013,22 +8014,7 @@ valtio@1.11.2:
     proxy-compare "2.5.1"
     use-sync-external-store "1.2.0"
 
-viem@2.21.21:
-  version "2.21.21"
-  resolved "https://nexus.n3twork.com/repository/npm-group/viem/-/viem-2.21.21.tgz#11a5001fa18c8a47548a4b20ae9ddd8cfb14de3f"
-  integrity sha512-KJPqpAXy8kyZQICx1nURUXqd8aABP9RweAZhfp27MzMPsAAxP450cWPlEffEAUrvsyyj5edVbIcHESE8DYVzFA==
-  dependencies:
-    "@adraffy/ens-normalize" "1.11.0"
-    "@noble/curves" "1.6.0"
-    "@noble/hashes" "1.5.0"
-    "@scure/bip32" "1.5.0"
-    "@scure/bip39" "1.4.0"
-    abitype "1.0.6"
-    isows "1.0.6"
-    webauthn-p256 "0.0.10"
-    ws "8.18.0"
-
-viem@2.x, viem@^2.1.1:
+viem@2.x, viem@^2.1.1, viem@^2.21.27:
   version "2.21.27"
   resolved "https://nexus.n3twork.com/repository/npm-group/viem/-/viem-2.21.27.tgz#4f47ae8df832e160c5a339238e823c0e56794e64"
   integrity sha512-lBpldSmwmKZ8jIiVLqoplPnuMs2Cza8tK0/G9m+ZjqfbgEp4+BPviFBJWCDNFxSp8H3gPzAuqj8o1WKQyq3wlg==
@@ -8178,12 +8164,12 @@ vscode-uri@^3.0.2:
   resolved "https://nexus.n3twork.com/repository/npm-group/vscode-uri/-/vscode-uri-3.0.8.tgz#1770938d3e72588659a172d0fd4642780083ff9f"
   integrity sha512-AyFQ0EVmsOZOlAnxoFOGOq1SQDWAB7C6aqMGS23svWAllfOaxbuFvcT8D1i8z3Gyn8fraVeZNNmN6e9bxxXkKw==
 
-wagmi@2.12.17:
-  version "2.12.17"
-  resolved "https://nexus.n3twork.com/repository/npm-group/wagmi/-/wagmi-2.12.17.tgz#b3fad0dc38a67a35a2506db3dc8df90164f1ee87"
-  integrity sha512-WkofyvOX6XGOXrs8W0NvnzbLGIb9Di8ECqpMDW32nqwTKRxfolfN4GI/AlAMs9fjx4h3k8LGTfqa6UGLb063yg==
+wagmi@^2.12.19:
+  version "2.12.19"
+  resolved "https://nexus.n3twork.com/repository/npm-group/wagmi/-/wagmi-2.12.19.tgz#d727c5852e57129c24e26fc66278ce300739b352"
+  integrity sha512-ksXR7r8xniaSVYBwmjJFMeqkBf1TNB2L+3yGFD4Elu7+GQdxjrZp6+SR8HYIOGFtR7BGp1VUPGTxbndg7ghxVw==
   dependencies:
-    "@wagmi/connectors" "5.1.15"
+    "@wagmi/connectors" "5.2.1"
     "@wagmi/core" "2.13.8"
     use-sync-external-store "1.2.0"
 
