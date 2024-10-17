@@ -6,7 +6,7 @@ const getConfig = (): Config => {
   const env: Environment = (import.meta.env.VITE_ENV as Environment) || 'local';
   const uuid = uuidv4();
   const isProd: boolean = env === 'prod';
-  const baseUrl = import.meta.env.VITE_BASE_URL || '';
+  const baseUrl = import.meta.env.VITE_BASE_URL || 'https://dev6.game.sandbox.legendaryheroesunchained.com';
 
   /**
    * Set global config settings
@@ -32,7 +32,7 @@ const getConfig = (): Config => {
       lhu: baseUrl,
     },
     web3_modal: {
-      projectId: import.meta.env.VITE_APPKIT_PROJECT_ID || '',
+      projectId: import.meta.env.VITE_APPKIT_PROJECT_ID || 'c6ff8ac22ac51e4bfa5f07a9d374db5c',
     },
   };
 

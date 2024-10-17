@@ -14,7 +14,7 @@
 
 - ### **Environment Variables**
 
-Please ask a developer of this project for the respective `.env` file.
+  All you need to do is create a blank `.env.dev6` file at the root of the project directory. There should be the necessary defaults in place for everything to work.
 
 ## **SCRIPTS**
 
@@ -30,9 +30,9 @@ Please ask a developer of this project for the respective `.env` file.
 
   #### When building apps using a specific environment, the resulting build artifacts will be saved to `/builds/<env>/build-<env>-<version-number>`. The latest build will also always overwrite the artifacts found in `/build`.
 
-  - `yarn build:local`
+  - `yarn build:dev6`
 
-    Builds the app using <span style="color:cyan">local</span> environment
+    Builds the app using <span style="color:cyan">dev6</span> environment. This will provide SIWE endpoints for testing SIWE.
 
 - ### **Testing the App**
 

@@ -16,7 +16,8 @@ import App from 'src/App';
 import 'src/styles/global/App.sanitize.scss';
 import packageJson from '../package.json';
 
-const publicUrl = config.env === 'local' ? `http://localhost:${window.location.port}` : import.meta.env.VITE_PUBLIC_URL;
+const publicUrl =
+  config.env === 'local' ? `http://localhost:${window.location.port}` : import.meta.env.VITE_PUBLIC_URL || '/';
 const container = document.getElementById('root') as Element;
 const root = createRoot(container);
 const basename = document.querySelector('base')?.getAttribute('href') ?? '/';
